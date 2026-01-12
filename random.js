@@ -3,10 +3,10 @@ function randombutton(button) {
   var randomRange = 6
   let sitelistName = 'feeling-lucky'
   var sitesList = [
-    'https://thedinogame.com/night/',
-    'https://thedinogame.com/dino-jump/',
-    'https://thedinogame.com/immortal/',
-	'https://thedinogame.com/dino-run-dx/',
+    'https://dinogamemods.org/night/',
+    'https://dinogamemods.org/dino-jump/',
+    'https://dinogamemods.org/immortal/',
+	'https://dinogamemods.org/dino-run-dx/',
   ]
   var sites = null
   var init = function () {
