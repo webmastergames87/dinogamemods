@@ -75,7 +75,7 @@ h3 {
 
 /**** Custom Responsive ***/
 @media screen(max-width: 520px) { 
-#dino-game h3 { font-size: 16px; font-weight: bold;}
+h3 { font-size: 16px; font-weight: bold;}
 .online .header-wrapper { margin-bottom: 40px; padding-top: 18px;}
 .online .runner-container,.online .runner-canvas { position: relative;}
 .other-versions { margin-bottom: 30px; text-align: center;}
@@ -85,11 +85,11 @@ h3 {
 .other-versions ul li a { font-size: 12px; font-weight: bold; text-decoration: none;}
 }
 @media (max-width: 420px) { 
-.wrapperpage { padding: 0 5px;}
+.wrapperpage { padding: 0 5px; margin-top: 80px;}
 h1 {font-size: 1.2em;}
 }
 @media (max-height: 350px){
-#dino-game h3 { margin: 0 0 15px; } 
+h3 { margin: 0 0 15px; } 
 .icon-online { margin: 0 0 10px; } 
 .header-wrapper { margin-top: 5%; } 
 }
@@ -115,7 +115,8 @@ button { width: auto; }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), 
 only screen and (min-resolution: 2dppx) { 
-#dino-game h3 { display:none;}
+h3 { display:none;}
+.wrapperpage {margin-top: 180px;}
 .copyright {bottom: -370px; font-size: 14px;}
 }
 @media screen and (min-width: 768px) { 
